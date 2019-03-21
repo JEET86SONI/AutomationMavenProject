@@ -27,7 +27,7 @@ public class LoginPageTest extends BaseClass {
 	@Test(priority = 1)
 	public void loginPageTitleTest() {
 		String title = loginpage.validateLoginPage();
-		Assert.assertEquals(title, "#1 Free CRM software in the cloud for sales and service");
+		Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.");
 	}
 	
 	@Test(priority =2)

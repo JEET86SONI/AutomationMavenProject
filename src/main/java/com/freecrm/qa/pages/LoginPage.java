@@ -22,7 +22,7 @@ public class LoginPage extends BaseClass{
 	@FindBy(xpath = "//a[contains(@href,'register')]/font[text()='Sign Up']")
 	WebElement signupBtn;
 
-	@FindBy(xpath = "//img[contains(@class,'img-responsive') and @alt ='free crm logo']")
+	@FindBy(xpath = "//img[@src='https://classic.crmpro.com/img/logo.png']")
 	WebElement crmLogo; 
 	
 	//Initializing the page Object
